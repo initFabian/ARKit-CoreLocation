@@ -10,6 +10,7 @@ import UIKit
 import SceneKit 
 import MapKit
 import CocoaLumberjack
+import ARKitCoreLocation
 
 class ViewController: UIViewController, MKMapViewDelegate, SceneLocationViewDelegate {
     let sceneLocationView = SceneLocationView()
